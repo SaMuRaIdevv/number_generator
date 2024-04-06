@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.main-box{
+    display: flex;
+    flex-direction: column;
+    border-radius: 12px;
+    border: 1px solid black;
+    padding-inline: 4rem;
+    margin: 9rem;
+    padding-block: 9rem;
+}
+
+.input-area{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1rem;
+    margin-bottom: 3rem;
+}
+
+.result-info{
+    margin-right: 8rem;
+}
+
+.btn{
+    padding-inline: 4rem;
+    padding-block: .5rem;
+}
+
+.result-info{
+    margin-left: 14.5rem;
+}
+
+.result-activities{
+    margin-left: 23rem;
+}
